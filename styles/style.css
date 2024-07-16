@@ -140,21 +140,57 @@ margin-top: 5px;
 font-size: 1rem;
 
 }
+.featured-container{
+  max-width: 1110px;
+  margin: 0 auto;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-h3{
+  color: rgb(10, 8, 38);
+font-size: 2.3rem;
+font-weight: 700;
+margin-bottom: 16px;
+
+}
+.feature-text{
+  color: rgb(108, 108, 108);
+font-size: 1rem;
+font-weight: 700;
+
+
+}
+.btn-secondary{
+  width: 155px;
+  background: rgb(224, 44, 109);
+  color: rgb(255, 255, 255);
+
+font-size: 1rem;
+font-weight: 700;
+border: none;
+padding: 10px 24px 10px 24px;
+}
   @media  screen and (max-width:576px){
     .navbar{
       flex-direction: column;
     }
-    .banner{
+    .banner , {
       flex-direction: column-reverse;
       gap: 0px;
       
     }
-    .banner-content{
+    .featured-container{
+      flex-direction: column-reverse;
+      gap: 20px;
+    }
+    .banner-conten,.feature-content{
       width: 100%;
       text-align: center;
      
     }
-    .banner img{
+    .banner img , .featured-container img{
       width: 100%;
     }
     .logos{
